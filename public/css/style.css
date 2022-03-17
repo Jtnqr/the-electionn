@@ -1,0 +1,47 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bs-purple: #6e33f5;
+  --bs-purple-rgb: 110, 51, 245;
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: #6e33f5;
+  border-color: #6e33f5;
+}
+
+.bg-purple {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-purple-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.navbar {
+  height: 80px;
+}
+
+/* homepage */
+
+.homepage {
+  margin-top: 80px;
+  margin-left: 10px;
+}
+
+.left-side .text h1 {
+  font-size: 56pt;
+}
+
+.left-side .text h5 {
+  font-size: 14pt;
+}
+
+.btn-purple {
+  padding: 18px 25px;
+}
+
+.right-side img {
+  width: 600px;
+}
+/* end homepage */
