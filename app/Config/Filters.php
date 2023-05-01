@@ -8,6 +8,9 @@ use CodeIgniter\Filters\DebugToolbar;
 use CodeIgniter\Filters\Honeypot;
 use CodeIgniter\Filters\InvalidChars;
 use CodeIgniter\Filters\SecureHeaders;
+use App\Filters\LoginFilter;
+use App\Filters\AdminFilter;
+use App\Filters\PemilihFilter;
 
 class Filters extends BaseConfig
 {
@@ -23,6 +26,9 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
+        'loginfilter' => LoginFilter::class,
+        'adminfilter' => AdminFilter::class,
+        'pemilihfilter' => PemilihFilter::class,
     ];
 
     /**
@@ -33,7 +39,7 @@ class Filters extends BaseConfig
      */
     public $globals = [
         'before' => [
-            // 'honeypot',
+            'honeypot',
             // 'csrf',
             // 'invalidchars',
         ],

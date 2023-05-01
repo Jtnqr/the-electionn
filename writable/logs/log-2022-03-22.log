@@ -1,0 +1,17 @@
+CRITICAL - 2022-03-22 06:48:54 --> Undefined variable $active1
+#0 C:\xampp\htdocs\pickme\app\Views\layouts\navbar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\pickme\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pickme\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pickme\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('layouts/navbar....', NULL, true)
+#4 C:\xampp\htdocs\pickme\app\Views\layouts\template.php(34): CodeIgniter\View\View->include('layouts/navbar....')
+#5 C:\xampp\htdocs\pickme\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pickme\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\pickme\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('layouts/templat...', Array, true)
+#8 C:\xampp\htdocs\pickme\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#9 C:\xampp\htdocs\pickme\app\Controllers\Home.php(12): view('homepage', Array)
+#10 C:\xampp\htdocs\pickme\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\pickme\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\pickme\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\pickme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\pickme\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#15 {main}
